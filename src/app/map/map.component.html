@@ -1,0 +1,7 @@
+<nz-card nzTitle="Area" class="map">
+  <div nz-row>
+    <div nz-col [nzOffset]="12" [nzSpan]="12">
+      <div googleMap class="map__container" (addPoint)="onAddPoint($event)"></div>
+    </div>
+  </div>
+</nz-card>

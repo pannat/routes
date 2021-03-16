@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+
+.ant-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.ant-layout-content {
+  flex-grow: 1;
+}
